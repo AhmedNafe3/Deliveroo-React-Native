@@ -14,6 +14,7 @@ import {
   MagnifyingGlassIcon,
 } from "react-native-heroicons/outline";
 import Categories from '../components/Categories'
+import CategoryCard from "../components/CategoryCard";
 const HomeScreen = () => {
   const navigation = useNavigation();
   useLayoutEffect(() => {
@@ -49,6 +50,7 @@ const HomeScreen = () => {
       <ScrollView>
         {/* Category */}
         <Categories></Categories>
+        <CategoryCard></CategoryCard>
         {/* Features Rows */}
       </ScrollView>
     </SafeAreaView>
